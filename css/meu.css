@@ -15,6 +15,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
@@ -36,8 +37,8 @@ body {
 }
 .imcdolado {
     padding-left: 120px;
-    padding-top: 43px;
-    margin: 5px;
+    padding-top: 0px;
+    margin: 3px;
 }
 .container h1 {
     padding-bottom: 15px;
@@ -86,24 +87,26 @@ form button:active {
 @media (max-width: 950px) {
     .imc {
         padding-left: 0px;
-        margin: 5px;
-        padding-bottom: 50px;
+        margin: 0px;
+        padding-bottom: 30px;
+        padding-top: 40px;
     }
     .imc h2{
         font-size: 1.2em;
-        padding-top: 10px;
-        padding-bottom: 28px;
     }
     .imc p {
         padding-bottom: 5px;
     }
     .imcdolado {
-        padding-left: 73px;
-        padding-top: 55px;
-        margin: 5px;
+        padding-left: 23px;
+        padding-top: 30px;
+        margin: 10px;
+    }
+    .imcdolado h2{
+        font-size: 1.3em;
     }
     .imcdolado p {
-        padding-top: 5px;
-        padding-bottom: 1.5px;
+        padding-top: 0px;
+        padding-bottom: 5px;
     }
 }
