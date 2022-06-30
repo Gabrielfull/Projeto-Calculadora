@@ -120,4 +120,14 @@ form button:active {
     .imcdolado p {
         margin-bottom: 5px;
     }
+    form input, form label, form button {
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .container h2 {
+        padding-left: 15px;
+        padding-bottom: 20px;
+    }
 }
