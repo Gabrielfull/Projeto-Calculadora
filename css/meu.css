@@ -19,6 +19,9 @@ body {
     font-size: 1.3em;
     line-height: 1.5em;
 }
+.tabela {
+    display: flex;
+}
 .container {
     max-width: 640px;
     margin: 10px auto;
@@ -26,16 +29,22 @@ body {
     border-radius: 5px;
     background-color: rgb(219, 150, 20);
 }
+.imc {
+    padding-left: 30px;
+    margin: 4px;
+    padding-bottom: 50px;
+}
+.imcdolado {
+    padding-left: 120px;
+    padding-top: 43px;
+    margin: 5px;
+}
 .container h1 {
     padding-bottom: 15px;
 }
 .imc h2{
     font-size: 1em;
     padding-bottom: 10px;
-}
-.imc {
-    columns: 2;
-    padding-bottom: 50px;
 }
 .container h2 {
     padding-bottom: 20px;
@@ -75,10 +84,26 @@ form button:active {
     font-weight: bold;
 }
 @media (max-width: 950px) {
-    .container {
-        max-width: 430px;
-        margin: 10px auto;
-        padding: 25px;
-        border-radius: 5px;
+    .imc {
+        padding-left: 0px;
+        margin: 5px;
+        padding-bottom: 50px;
+    }
+    .imc h2{
+        font-size: 1.2em;
+        padding-top: 10px;
+        padding-bottom: 28px;
+    }
+    .imc p {
+        padding-bottom: 5px;
+    }
+    .imcdolado {
+        padding-left: 73px;
+        padding-top: 55px;
+        margin: 5px;
+    }
+    .imcdolado p {
+        padding-top: 5px;
+        padding-bottom: 1.5px;
     }
 }
